@@ -1,0 +1,24 @@
+﻿@model Modelos.Endereco
+
+<div class="row" style="margin-bottom: 15px">
+    <div class="col-md-12 text-right">
+        <button type="button" onclick="removerElemento(this)" class="btn btn-danger btn-xs">Excluir</button>
+    </div>
+
+    <input type="hidden" name="Enderecos.Index" value="@ViewBag.Indexador" />
+
+    <div class="col-md-4">
+        @Html.LabelFor(model => model.Bairro)
+        <input type="text" name="Enderecos[@ViewBag.Indexador].Bairro" class="form-control" />
+    </div>
+
+    <div class="col-md-4">
+        @Html.LabelFor(model => model.Logradouro)
+        <input type="text" name="Enderecos[@ViewBag.Indexador].Logradouro" class="form-control" />
+    </div>
+
+    <div class="col-md-4">
+        @Html.LabelFor(model => model.Complemento)
+        <input type="text" name="Enderecos[@ViewBag.Indexador].Complemento" class="form-control" />
+    </div>
+</div>

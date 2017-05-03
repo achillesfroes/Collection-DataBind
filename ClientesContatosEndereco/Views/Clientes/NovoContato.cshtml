@@ -1,0 +1,19 @@
+﻿@model Modelos.Contato
+  
+<div class="row" style="margin-bottom: 15px">
+    <input type="hidden" name="Contatos.Index" value="@ViewBag.Indexador" />
+    <div class="col-md-12 text-right">
+        <button type="button" onclick="removerElemento(this)" class="btn btn-danger btn-xs">Excluir</button>
+    </div>
+    <div class="col-md-6">
+        @Html.LabelFor(model => model.Conteudo)
+        <input type="text" name="Contatos[@ViewBag.Indexador].Conteudo" class="form-control" />
+    </div>
+    <div class="col-md-6">
+        @Html.LabelFor(model => model.Tipo)
+        <input type="radio" name="Contatos[@ViewBag.Indexador].Tipo" value="Email" /> Email
+        <input type="radio" name="Contatos[@ViewBag.Indexador].Tipo" value="Celular" /> Celular
+        <input type="radio" name="Contatos[@ViewBag.Indexador].Tipo" value="TelefoneFixo" /> Telefone Fixo
+    </div>
+</div>
+

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientesContatosEndereco", "ClientesContatosEndereco\ClientesContatosEndereco.csproj", "{5953868D-50A8-4BB3-A14F-44DB45BD53B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{B11040F2-97A1-4FE1-B143-AFF3FC594387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{A4F93E5E-F803-4088-99EE-4ADA57F616A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5953868D-50A8-4BB3-A14F-44DB45BD53B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5953868D-50A8-4BB3-A14F-44DB45BD53B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5953868D-50A8-4BB3-A14F-44DB45BD53B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5953868D-50A8-4BB3-A14F-44DB45BD53B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11040F2-97A1-4FE1-B143-AFF3FC594387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11040F2-97A1-4FE1-B143-AFF3FC594387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11040F2-97A1-4FE1-B143-AFF3FC594387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11040F2-97A1-4FE1-B143-AFF3FC594387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F93E5E-F803-4088-99EE-4ADA57F616A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F93E5E-F803-4088-99EE-4ADA57F616A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F93E5E-F803-4088-99EE-4ADA57F616A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F93E5E-F803-4088-99EE-4ADA57F616A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
